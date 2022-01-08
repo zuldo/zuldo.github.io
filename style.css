@@ -1,0 +1,115 @@
+body {
+	font-family: sans-serif;
+	color: #fff;
+	background-color: #000;
+
+	padding: 0;
+	line-height: 1em;
+
+	/*The following makes the page be in the same position regardless of scrollbar visibility.*/
+	margin-left: calc(100vw - 100%);
+}
+
+#container {
+	padding-bottom: 60px;
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+.flex-container > div {
+	margin: 8px;
+}
+#main {
+	width: 1400px;
+	margin: 0 auto;
+}
+#sidebar {
+	border: 2px solid #fff;
+	margin: 8px;
+	padding: 8px;
+	line-height: 1.5em;
+
+	flex: 0 0 150px;
+	justify-self: flex-start;
+	align-self: flex-start;
+}
+#content {
+	margin: 8px;
+	padding: 8px;
+
+	flex: 0 0 800px;
+	justify-self: center;
+	align-self: flex-start;
+}
+
+#footer {
+	position: relative;
+	top: 60px;
+	visibility: hidden;
+}
+
+#site-header {
+	text-align: center;
+}
+.site-title {
+	font-size: 3em;
+
+	align-self: center;
+}
+.page-title {
+	font-size: 2em;
+}
+
+:target {
+	border: 2px solid #f00;
+}
+
+a {
+	color: #f00;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+/*The following selects external links.*/
+a[href^="http"] {
+	color: #c2f;
+}
+
+h1 {
+	font-size: 1.8em;
+	line-height: 1;
+}
+
+p {
+	margin: 0.1em;
+	line-height: 1.1;
+}
+
+blockquote {
+	border-left: 5px solid #fff;
+	padding-left: 10px;
+}
+
+ul, ol {
+	line-height: 1.3;
+}
+
+hr {
+	color: #fff;
+}
+
+pre, code {
+	background-color: #222;
+}
+
+details {
+	user-select: none;
+}
+
+ul {
+	list-style-type: disc;
+}
