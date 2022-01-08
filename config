@@ -1,7 +1,0 @@
-[core]
-	repositoryformatversion = 0
-	filemode = true
-	bare = true
-[remote "github"]
-	url = https://github.com/zuldo/zuldo.github.io
-	fetch = +refs/heads/*:refs/remotes/github/*
