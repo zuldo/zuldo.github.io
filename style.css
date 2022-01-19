@@ -106,10 +106,6 @@ pre, code {
 	background-color: #222;
 }
 
-details {
-	user-select: none;
-}
-
 ul {
 	list-style-type: disc;
 }
